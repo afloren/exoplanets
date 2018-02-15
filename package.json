@@ -1,0 +1,26 @@
+{
+  "name": "exoplanets",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@types/three": "^0.89.6",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "react-scripts-ts": "2.13.0",
+    "react-three-renderer": "^3.2.3",
+    "three": "^0.86.0"
+  },
+  "scripts": {
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject"
+  },
+  "devDependencies": {
+    "@types/jest": "^22.1.2",
+    "@types/node": "^9.4.5",
+    "@types/react": "^16.0.36",
+    "@types/react-dom": "^16.0.3",
+    "typescript": "^2.7.1"
+  }
+}
