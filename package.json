@@ -3,7 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@types/mathjs": "^0.0.38",
     "@types/three": "^0.89.6",
+    "mathjs": "^4.0.0",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
     "react-scripts-ts": "2.13.0",
