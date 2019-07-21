@@ -25,7 +25,7 @@ class Scene extends React.Component<SimpleProps, SimpleState> {
 
     public onAnimate = () => {
         this.setState((prevState, props) => ({
-            time: prevState.time + 0.001,
+            time: prevState.time + 0.0001,
         }));
     }
   
