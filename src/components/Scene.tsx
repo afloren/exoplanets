@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { unit } from 'mathjs';
-import React3 from 'react-three-renderer';
+import { Canvas } from 'react-three-fiber';
 import { Vector3 } from 'three';
 import Star from './Star';
 import Planet from './Planet';
@@ -31,7 +31,7 @@ class Scene extends React.Component<SimpleProps, SimpleState> {
   
     render() {        
         return (        
-            <React3
+            <Canvas
                 width={this.props.width}
                 height={this.props.height}
                 onAnimate={this.onAnimate}
@@ -104,7 +104,7 @@ class Scene extends React.Component<SimpleProps, SimpleState> {
                         color={0xffffff}
                     />                             
                 </scene>
-            </React3>
+            </Canvas>
         );
     }
 }
